@@ -5,7 +5,6 @@ import datetime
 
 def get_bdt_rate():
     try:
-        # লাইভ USD to BDT এক্সচেঞ্জ রেট
         response = requests.get("https://api.exchangerate-api.com/v4/latest/USD")
         data = response.json()
         return data.get('rates', {}).get('BDT', 122.0)
@@ -15,14 +14,11 @@ def get_bdt_rate():
 def get_gold_news():
     news_url = "https://news.google.com/rss/search?q=gold+price+market+bangladesh"
     feed = feedparser.parse(news_url)
-    
-    news_table = "### 📰 আজকের সর্বশেষ খবর (News Table)\n\n"
-    news_table += "| ক্রমিক | সংবাদের শিরোনাম | উৎস ও লিংক |\n"
+    news_table = "### 📰 Ajker Sorvoses Khobor\n\n"
+    news_table += "| Kromik | Songbad Shironam | Uthso o Link |\n"
     news_table += "| :--- | :--- | :--- |\n"
-    
     for i, entry in enumerate(feed.entries[:5], 1):
-        news_table += f"| {i} | {entry.title} | [এখানে ক্লিক করুন]({entry.link}) |\n"
-    
+        news_table += f"| {i} | {entry.title} | [Ekhane Click Korun]({entry.link}) |\n"
     return news_table
 
 def get_gold_price():
@@ -35,12 +31,9 @@ def get_gold_price():
         response.raise_for_status()
         gold_data = response.json()
         
-        # ২৪ ক্যারেট প্রতি গ্রামের লাইভ ডলার প্রাইস
         p24k_usd = gold_data.get('price_gram_24k', 0)
         usd_to_bdt = get_bdt_rate()
         p24k_bdt = p24k_usd * usd_to_bdt
-        
-        # ১ ভরি = ১১.৬৬৪ গ্রাম
         v_gm = 11.664 
 
         def f_bdt(val):
@@ -48,35 +41,43 @@ def get_gold_price():
 
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        output = f"# 💰 সোনার দামের লাইভ আপডেট (বাংলাদেশ পাইকারি বাজার)\n"
-        output += f"**শেষ আপডেট:** {current_time}\n\n"
-        output += f"### ✨ আজকের ১ গ্রাম ২৪ ক্যারেট সোনার দাম: **{f_bdt(p24k_bdt)} ৳**\n"
-        output += f"*(১$ = {usd_to_bdt} BDT হিসেবে)*\n\n"
-        output += f"> **হিসাব:** ১ ভরি = {v_gm} গ্রাম | আন্তর্জাতিক মান অনুযায়ী পাইকারি রেট\n\n"
+        output = f"# 💰 Gold Price Live Update (Bangladesh)\n"
+        output += f"**Last Update:** {current_time} | **Dollar Rate:** 1$ = {usd_to_bdt} BDT\n\n"
+        output += f"### ✨ Ajker 1 Gram 24K Gold Price: **{f_bdt(p24k_bdt)} ৳**\n\n"
 
-        # টেবিল ১: প্রতি গ্রামের দাম
-        output += "### ⚖️ প্রতি গ্রামের দাম (Gram Price)\n\n"
-        output += "| ক্যারেট | বিশুদ্ধতা (Ratio) | দাম (BDT) | দাম (USD) |\n"
+        # Table 1: Gram Price (Wholesale)
+        output += "### ⚖️ Proti Gramer Dam (Wholesale Gram Price)\n\n"
+        output += "| Carat | Purity | Dam (BDT) | Dam (USD) |\n"
         output += "| :--- | :--- | :--- | :--- |\n"
         
-        # টেবিল ২: প্রতি ভরির দাম
-        v_table = "\n### 🔱 প্রতি ভরির দাম (Vhori Price)\n\n"
-        v_table += "| ক্যারেট | বিশুদ্ধতা (Ratio) | দাম (BDT) | দাম (USD) |\n"
+        # Table 2: Vhori Price (Wholesale)
+        v_table = "\n### 🔱 Proti Vhorir Dam (Wholesale Vhori Price)\n\n"
+        v_table += "| Carat | Purity | Dam (BDT) | Dam (USD) |\n"
         v_table += "| :--- | :--- | :--- | :--- |\n"
 
-        # আপনার দেওয়া পাইকারি বাজারের রেশিও চার্ট
-        # 24K=1.0, 22K=22/24, 21K=21/24, 18K=18/24, Old=0.75
+        # Table 3: Retail Price for Local Customers (20% Extra)
+        retail_table = "\n### 🛍️ Local Customer Retail Price (With 20% Premium)\n\n"
+        retail_table += "| Carat | Proti Gram (BDT) | Proti Vhori (BDT) |\n"
+        retail_table += "| :--- | :--- | :--- |\n"
+
+        # Carat list: 24K, 22K, 21K, 18K, Old Gold
         for name, ratio in [("24K", 1.0), ("22K", 22/24), ("21K", 21/24), ("18K", 18/24), ("Old Gold", 0.75)]:
             u_gm = p24k_usd * ratio
             b_gm = u_gm * usd_to_bdt
+            wholesale_vhori = b_gm * v_gm
             
-            # গ্রাম টেবিল আপডেট
+            # 20% Premium Calculation
+            retail_gram = b_gm * 1.20
+            retail_vhori = wholesale_vhori * 1.20
+            
+            # Update Wholesale Tables
             output += f"| **{name}** | {round(ratio*100, 2)}% | {f_bdt(b_gm)} ৳ | ${round(u_gm, 2)} |\n"
+            v_table += f"| **{name}** | {round(ratio*100, 2)}% | {f_bdt(wholesale_vhori)} ৳ | ${round(u_gm * v_gm, 2)} |\n"
             
-            # ভরি টেবিল আপডেট
-            v_table += f"| **{name}** | {round(ratio*100, 2)}% | {f_bdt(b_gm * v_gm)} ৳ | ${round(u_gm * v_gm, 2)} |\n"
+            # Update Retail Table
+            retail_table += f"| **{name}** | {f_bdt(retail_gram)} ৳ | **{f_bdt(retail_vhori)} ৳** |\n"
         
-        return output + v_table + "\n"
+        return output + v_table + retail_table + "\n"
     except Exception as e:
         return f"Error: {e}\n"
 
