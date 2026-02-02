@@ -14,11 +14,11 @@ def get_bdt_rate():
 def get_gold_news():
     news_url = "https://news.google.com/rss/search?q=gold+price+market+bangladesh"
     feed = feedparser.parse(news_url)
-    news_table = "### 📰 Ajker Sorvoses Khobor\n\n"
-    news_table += "| Kromik | Songbad Shironam | Uthso o Link |\n"
+    news_table = "### 📰 আজকের সর্বশেষ খবর\n\n"
+    news_table += "| ক্রমিক | সংবাদের শিরোনাম | উৎস ও লিংক |\n"
     news_table += "| :--- | :--- | :--- |\n"
     for i, entry in enumerate(feed.entries[:5], 1):
-        news_table += f"| {i} | {entry.title} | [Ekhane Click Korun]({entry.link}) |\n"
+        news_table += f"| {i} | {entry.title} | [এখানে ক্লিক করুন]({entry.link}) |\n"
     return news_table
 
 def get_gold_price():
@@ -34,47 +34,47 @@ def get_gold_price():
         p24k_usd = gold_data.get('price_gram_24k', 0)
         usd_to_bdt = get_bdt_rate()
         p24k_bdt = p24k_usd * usd_to_bdt
-        v_gm = 11.664 
+        v_gm = 11.664 # ১ ভরি = ১১.৬৬৪ গ্রাম
 
         def f_bdt(val):
             return "{:,.2f}".format(val)
 
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        output = f"# 💰 Gold Price Live Update (Bangladesh)\n"
-        output += f"**Last Update:** {current_time} | **Dollar Rate:** 1$ = {usd_to_bdt} BDT\n\n"
-        output += f"### ✨ Ajker 1 Gram 24K Gold Price: **{f_bdt(p24k_bdt)} ৳**\n\n"
+        output = f"# 💰 সোনার দামের লাইভ আপডেট (বাংলাদেশ)\n"
+        output += f"**শেষ আপডেট:** {current_time} | **ডলার রেট:** 1$ = {usd_to_bdt} BDT\n\n"
+        output += f"### ✨ আজকের ১ গ্রাম ২৪ ক্যারেট সোনার দাম: **{f_bdt(p24k_bdt)} ৳**\n\n"
 
-        # Table 1: Gram Price (Wholesale)
-        output += "### ⚖️ Proti Gramer Dam (Wholesale Gram Price)\n\n"
-        output += "| Carat | Purity | Dam (BDT) | Dam (USD) |\n"
+        # টেবিল ১: পাইকারি গ্রাম রেট
+        output += "### ⚖️ পাইকারি প্রতি গ্রামের দাম (Wholesale Gram Price)\n\n"
+        output += "| ক্যারেট | বিশুদ্ধতা | দাম (BDT) | দাম (USD) |\n"
         output += "| :--- | :--- | :--- | :--- |\n"
         
-        # Table 2: Vhori Price (Wholesale)
-        v_table = "\n### 🔱 Proti Vhorir Dam (Wholesale Vhori Price)\n\n"
-        v_table += "| Carat | Purity | Dam (BDT) | Dam (USD) |\n"
+        # টেবিল ২: পাইকারি প্রতি ভরির দাম
+        v_table = "\n### 🔱 পাইকারি প্রতি ভরির দাম (Wholesale Vhori Price)\n\n"
+        v_table += "| ক্যারেট | বিশুদ্ধতা | দাম (BDT) | দাম (USD) |\n"
         v_table += "| :--- | :--- | :--- | :--- |\n"
 
-        # Table 3: Retail Price for Local Customers (20% Extra)
-        retail_table = "\n### 🛍️ Local Customer Retail Price (With 20% Premium)\n\n"
-        retail_table += "| Carat | Proti Gram (BDT) | Proti Vhori (BDT) |\n"
+        # টেবিল ৩: লোকাল কাস্টমার খুচরা দাম (২০% লাভসহ)
+        retail_table = "\n### 🛍️ লোকাল কাস্টমার খুচরা দাম (২০% প্রিমিয়ামসহ)\n\n"
+        retail_table += "| ক্যারেট | প্রতি গ্রাম (BDT) | প্রতি ভরি (BDT) |\n"
         retail_table += "| :--- | :--- | :--- |\n"
 
-        # Carat list: 24K, 22K, 21K, 18K, Old Gold
+        # ক্যারেট লিস্ট
         for name, ratio in [("24K", 1.0), ("22K", 22/24), ("21K", 21/24), ("18K", 18/24), ("Old Gold", 0.75)]:
             u_gm = p24k_usd * ratio
             b_gm = u_gm * usd_to_bdt
             wholesale_vhori = b_gm * v_gm
             
-            # 20% Premium Calculation
+            # ২০% প্রিমিয়াম ক্যালকুলেশন
             retail_gram = b_gm * 1.20
             retail_vhori = wholesale_vhori * 1.20
             
-            # Update Wholesale Tables
+            # পাইকারি টেবিল ডাটা
             output += f"| **{name}** | {round(ratio*100, 2)}% | {f_bdt(b_gm)} ৳ | ${round(u_gm, 2)} |\n"
             v_table += f"| **{name}** | {round(ratio*100, 2)}% | {f_bdt(wholesale_vhori)} ৳ | ${round(u_gm * v_gm, 2)} |\n"
             
-            # Update Retail Table
+            # খুচরা টেবিল ডাটা (২০% যোগ করা হয়েছে)
             retail_table += f"| **{name}** | {f_bdt(retail_gram)} ৳ | **{f_bdt(retail_vhori)} ৳** |\n"
         
         return output + v_table + retail_table + "\n"
