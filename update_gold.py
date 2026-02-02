@@ -61,7 +61,7 @@ def get_gold_price():
         retail_table += "| :--- | :--- | :--- |\n"
 
         # ক্যারেট লিস্ট
-        for name, ratio in [("24K", 1.0), ("22K", 22/24), ("21K", 21/24), ("18K", 18/24), ("Old Gold", 0.75)]:
+        for name, ratio in [("24K", 1.0), ("22K", 22/24), ("21K", 21/24), ("18K", 18/24), ("Old Gold", 0.65)]:
             u_gm = p24k_usd * ratio
             b_gm = u_gm * usd_to_bdt
             wholesale_vhori = b_gm * v_gm
