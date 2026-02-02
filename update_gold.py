@@ -23,7 +23,7 @@ def fetch_news(query, count=5):
     return news_list
 
 def get_combined_news():
-    int_news = fetch_news("global+gold+market+price+update", 5)
+    int_news = fetch_news("global+gold+market+price+update", 10)
     bd_news = fetch_news("gold+price+bangladesh+bajus+news", 5)
     
     section = "\n---\n### 🌏 আন্তর্জাতিক গোল্ড মার্কেট নিউজ (International)\n\n"
