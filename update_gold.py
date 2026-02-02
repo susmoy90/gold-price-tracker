@@ -11,21 +11,40 @@ def get_bdt_rate():
     except:
         return 122.5
 
-def get_gold_news():
-    news_url = "https://news.google.com/rss/search?q=gold+price+market+bangladesh"
-    feed = feedparser.parse(news_url)
+def fetch_news(query, count=5):
+    # গুগল নিউজ থেকে নির্দিষ্ট কোয়েরি অনুযায়ী খবর সংগ্রহ
+    url = f"https://news.google.com/rss/search?q={query}"
+    feed = feedparser.parse(url)
+    news_list = []
     
-    news_section = "\n---\n### 📰 সোনার বাজারের সর্বশেষ খবর\n\n"
-    news_section += "| ক্রমিক | সংবাদের শিরোনাম | নিউজ পেপার | লিংক |\n"
-    news_section += "| :--- | :--- | :--- | :--- |\n"
-    
-    for i, entry in enumerate(feed.entries[:5], 1):
+    for entry in feed.entries[:count]:
         title_parts = entry.title.split(' - ')
         paper_name = title_parts[-1] if len(title_parts) > 1 else "নিউজ সোর্স"
         main_title = " - ".join(title_parts[:-1]) if len(title_parts) > 1 else entry.title
-        news_section += f"| {i} | {main_title} | **{paper_name}** | [পড়ুন]({entry.link}) |\n"
+        news_list.append({"title": main_title, "source": paper_name, "link": entry.link})
     
-    return news_section
+    return news_list
+
+def get_combined_news():
+    # আন্তর্জাতিক এবং বাংলাদেশের খবর আলাদাভাবে সংগ্রহ
+    int_news = fetch_news("global+gold+market+price+update", 5)
+    bd_news = fetch_news("gold+price+bangladesh+bajus+news", 5)
+    
+    # আন্তর্জাতিক নিউজ টেবিল
+    section = "\n---\n### 🌏 আন্তর্জাতিক গোল্ড মার্কেট নিউজ (International)\n\n"
+    section += "| নং | আন্তর্জাতিক সংবাদ শিরোনাম | নিউজ পেপার | লিংক |\n"
+    section += "| :--- | :--- | :--- | :--- |\n"
+    for i, n in enumerate(int_news, 1):
+        section += f"| {i} | {n['title']} | **{n['source']}** | [পড়ুন]({n['link']}) |\n"
+        
+    # বাংলাদেশের নিউজ টেবিল
+    section += "\n### 🇧🇩 বাংলাদেশের গোল্ড মার্কেট নিউজ (Local)\n\n"
+    section += "| নং | দেশীয় সংবাদ শিরোনাম | নিউজ পেপার | লিংক |\n"
+    section += "| :--- | :--- | :--- | :--- |\n"
+    for i, n in enumerate(bd_news, 1):
+        section += f"| {i} | {n['title']} | **{n['source']}** | [পড়ুন]({n['link']}) |\n"
+        
+    return section
 
 def get_gold_price():
     api_key = os.getenv("GOLD_API_KEY")
