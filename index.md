@@ -1,14 +1,14 @@
 # 💰 সোনার দামের লাইভ আপডেট (বাংলাদেশ)
-**শেষ আপডেট:** 2026-02-02 04:54:28
+**শেষ আপডেট:** 2026-02-02 04:56:18
 
 **আজকের ডলার রেট:** 1$ = 122.28 BDT
 
 | ক্যারেট | প্রতি গ্রাম (BDT) | প্রতি গ্রাম (USD) |
 | :--- | :--- | :--- |
-| **24K Gold** | 18,433.61 ৳ | $150.75 |
-| **22K Gold** | 16,897.48 ৳ | $138.19 |
-| **18K Gold** | 13,825.21 ৳ | $113.06 |
-| **Old Gold** | 15,207.73 ৳ | $124.37 |
+| **24K Gold** | 18,400.29 ৳ | $150.48 |
+| **22K Gold** | 16,866.93 ৳ | $137.94 |
+| **18K Gold** | 13,800.22 ৳ | $112.86 |
+| **Old Gold** | 15,180.24 ৳ | $124.14 |
 
 ### 📰 আজকের সর্বশেষ খবর:
 * [Gold price crosses Tk2,86,000 per bhori in Bangladesh, hits fresh record - The Business Standard](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdnpJTmZiZ3NMQ0s0Z3JCMjdHa0szV3JiYllRTFdNaW1uTEZYLWx2OVhndW1KdTBfTVZvVDRpWHdoTUh4bEZUdVNOZmhHXzFnZVZKZzVFcDB6UmNXakNnaUx5ZVlTWmVVVTVvU2N6VklHV3RsN1R0dGM5ZGlZUm9WZERSX01TYzRFd2JpVVg1Zk1QWEMydmFRdzBXYjJGSW5PUG1GcHhQb3ZWd9IBrwFBVV95cUxQZjVGUjVHYkVmd3l3dWdmUkJDNXgwcXhiRmtmWmc0SDRRM1dLZzh5N2F0eFAtWkxlM2U0YTZIcGhzcGR1QmY4TVRXQ3ZlMEFxZTNrRGhpUl9FUlJSOUVvVUx2d1kzUjR5N2dkaDhHdGp2MEowNFUwOUs0dHNZdk5haUMxbnFkRURVN1FvRFd5OXFtclU0VVVSeXR6WmQ1WllnUzdsQXBvMXQweVd3djFV?oc=5)
