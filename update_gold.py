@@ -12,38 +12,31 @@ def get_bdt_rate():
         return 122.5
 
 def fetch_news(query, count=5):
-    # গুগল নিউজ থেকে নির্দিষ্ট কোয়েরি অনুযায়ী খবর সংগ্রহ
     url = f"https://news.google.com/rss/search?q={query}"
     feed = feedparser.parse(url)
     news_list = []
-    
     for entry in feed.entries[:count]:
         title_parts = entry.title.split(' - ')
         paper_name = title_parts[-1] if len(title_parts) > 1 else "নিউজ সোর্স"
         main_title = " - ".join(title_parts[:-1]) if len(title_parts) > 1 else entry.title
         news_list.append({"title": main_title, "source": paper_name, "link": entry.link})
-    
     return news_list
 
 def get_combined_news():
-    # আন্তর্জাতিক এবং বাংলাদেশের খবর আলাদাভাবে সংগ্রহ
     int_news = fetch_news("global+gold+market+price+update", 5)
     bd_news = fetch_news("gold+price+bangladesh+bajus+news", 5)
     
-    # আন্তর্জাতিক নিউজ টেবিল
     section = "\n---\n### 🌏 আন্তর্জাতিক গোল্ড মার্কেট নিউজ (International)\n\n"
     section += "| নং | আন্তর্জাতিক সংবাদ শিরোনাম | নিউজ পেপার | লিংক |\n"
     section += "| :--- | :--- | :--- | :--- |\n"
     for i, n in enumerate(int_news, 1):
         section += f"| {i} | {n['title']} | **{n['source']}** | [পড়ুন]({n['link']}) |\n"
         
-    # বাংলাদেশের নিউজ টেবিল
     section += "\n### 🇧🇩 বাংলাদেশের গোল্ড মার্কেট নিউজ (Local)\n\n"
     section += "| নং | দেশীয় সংবাদ শিরোনাম | নিউজ পেপার | লিংক |\n"
     section += "| :--- | :--- | :--- | :--- |\n"
     for i, n in enumerate(bd_news, 1):
         section += f"| {i} | {n['title']} | **{n['source']}** | [পড়ুন]({n['link']}) |\n"
-        
     return section
 
 def get_gold_price():
@@ -61,49 +54,60 @@ def get_gold_price():
         p24k_bdt = p24k_usd * usd_to_bdt
         v_gm = 11.664
 
-        # ডলার টেবিলের জন্য ক্যালকুলেশন
+        # ডলার ক্যালকুলেশন
         p22k_usd = p24k_usd * (22/24)
+        p21k_usd = p24k_usd * (21/24)
         p18k_usd = p24k_usd * (18/24)
 
         def f_bdt(val): return "{:,.0f}".format(val)
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        # ১. হেডার ও ডলার রেট টেবিল
+        # ১. হেডার ও ডলার রেট টেবিল (Middle aligned)
         output = f"""
 <div align="center">
   <h1 style="color: #D4AF37;">💰 বাংলাদেশ গোল্ড হোলসেল মার্কেট আপডেট</h1>
   <p><b>সর্বশেষ আপডেট:</b> {current_time} | <b>ডলার রেট:</b> 1$ = {usd_to_bdt} BDT</p>
-  <p style="font-size: 1.3em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): {f_bdt(p24k_bdt)} ৳</b></p>
+  <p style="font-size: 1.4em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): {f_bdt(p24k_bdt)} ৳</b></p>
 
-  <table style="border-collapse: collapse; text-align: center; font-size: 0.85em; margin: 10px 0; border: 1px solid #ddd;">
+  <table style="border-collapse: collapse; text-align: center; font-size: 1em; margin: 20px auto; border: 1px solid #ddd; min-width: 300px;">
     <tr style="background-color: #f8f9fa;">
-      <th style="padding: 5px 15px; border-bottom: 1px solid #ddd;">ক্যারেট</th>
-      <th style="padding: 5px 15px; border-bottom: 1px solid #ddd;">প্রতি গ্রাম ($)</th>
+      <th style="padding: 10px 20px; border: 1px solid #ddd;">ক্যারেট</th>
+      <th style="padding: 10px 20px; border: 1px solid #ddd;">প্রতি গ্রাম ($)</th>
     </tr>
-    <tr><td>২৪ ক্যারেট</td><td><b>${p24k_usd:,.2f}</b></td></tr>
-    <tr><td>২২ ক্যারেট</td><td><b>${p22k_usd:,.2f}</b></td></tr>
-    <tr><td>১৮ ক্যারেট</td><td><b>${p18k_usd:,.2f}</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২৪ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>${p24k_usd:,.2f}</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২২ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>${p22k_usd:,.2f}</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২১ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>${p21k_usd:,.2f}</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">১৮ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>${p18k_usd:,.2f}</b></td></tr>
   </table>
-  <hr style="border: 0.5px solid #D4AF37; width: 80%;">
+  <hr style="border: 0.5px solid #D4AF37; width: 80%; margin: 20px auto;">
 </div>
 
 ### ⚖️ পাইকারি বাজারের দাম (Wholesale Price)
+
 | ক্যারেট | বিশুদ্ধতা | প্রতি গ্রাম (BDT) | প্রতি ভরি (১১.৬৬৪ গ্রাম) |
 | :--- | :---: | :---: | :---: |
 """
         
         # ২. খুচরা দামের টেবিল
-        retail_table = "\n### 🛍️ লোকাল কাস্টমার খুচরা দাম (২০% প্রিমিয়ামসহ)\n\n| ক্যারেট | প্রতি গ্রাম (BDT) | প্রতি ভরি (BDT) |\n| :--- | :---: | :---: |\n"
+        retail_table = "\n### 🛍️ লোকাল কাস্টমার খুচরা দাম (২০% প্রিমিয়ামসহ)\n\n"
+        retail_table += "| ক্যারেট | প্রতি গ্রাম (BDT) | প্রতি ভরি (BDT) |\n"
+        retail_table += "| :--- | :---: | :---: |\n"
 
         carats = [("২৪ ক্যারেট", 1.0), ("২২ ক্যারেট", 22/24), ("২১ ক্যারেট", 21/24), ("১৮ ক্যারেট", 18/24)]
+        
+        wholesale_rows = ""
+        retail_rows = ""
+        
         for name, ratio in carats:
             b_gm = p24k_usd * ratio * usd_to_bdt
             v_price = b_gm * v_gm
-            output += f"| {name} | {round(ratio*100, 1)}% | {f_bdt(b_gm)} ৳ | {f_bdt(v_price)} ৳ |\n"
-            retail_table += f"| {name} | {f_bdt(b_gm*1.2)} ৳ | **{f_bdt(v_price*1.2)} ৳** |\n"
+            # পাইকারি ডাটা
+            wholesale_rows += f"| **{name}** | {round(ratio*100, 1)}% | {f_bdt(b_gm)} ৳ | {f_bdt(v_price)} ৳ |\n"
+            # খুচরা ডাটা
+            retail_rows += f"| **{name}** | {f_bdt(b_gm*1.2)} ৳ | **{f_bdt(v_price*1.2)} ৳** |\n"
         
-        # ৩. নিউজ ও ডিসক্লেমার
-        combined_content = output + retail_table + get_combined_news() + "\n---\n> **⚠️ সতর্কবার্তা:** এই সাইটের তথ্যসমূহ আন্তর্জাতিক স্পট মার্কেট থেকে সংগৃহীত। বড় লেনদেনের আগে স্থানীয় বাজার যাচাই করে নিন।"
+        combined_content = output + wholesale_rows + retail_table + retail_rows + get_combined_news()
+        combined_content += "\n---\n> **⚠️ সতর্কবার্তা:** এই সাইটের তথ্যসমূহ আন্তর্জাতিক স্পট মার্কেট থেকে সংগৃহীত। ব্যবসায়িক লেনদেনের আগে স্থানীয় বাজার যাচাই করে নিন।"
         
         return combined_content
     except Exception as e:
