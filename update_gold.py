@@ -14,15 +14,11 @@ def get_bdt_rate():
 def get_gold_news():
     news_url = "https://news.google.com/rss/search?q=gold+price+market+bangladesh"
     feed = feedparser.parse(news_url)
-    
-    # নিউজের টেবিল - প্রতিটি লাইনের শেষে \n নিশ্চিত করা হয়েছে
-    news_table = "### 📰 আজকের সর্বশেষ খবর (News Table)\n\n"
+    news_table = "### 📰 আজকের সর্বশেষ খবর\n\n"
     news_table += "| ক্রমিক | সংবাদের শিরোনাম | উৎস ও লিংক |\n"
     news_table += "| :--- | :--- | :--- |\n"
-    
     for i, entry in enumerate(feed.entries[:5], 1):
         news_table += f"| {i} | {entry.title} | [এখানে ক্লিক করুন]({entry.link}) |\n"
-    
     return news_table
 
 def get_gold_price():
@@ -37,23 +33,28 @@ def get_gold_price():
         
         p24k_usd = gold_data.get('price_gram_24k', 0)
         usd_to_bdt = get_bdt_rate()
-        v_gm = 11.664 # ১ ভরি = ১১.৬৬৪ গ্রাম
+        p24k_bdt = p24k_usd * usd_to_bdt
+        
+        # আপনার নতুন চাহিদামত ১ ভরি = ১১.৬৬৪ গ্রাম সেট করা হলো
+        v_gm = 11.664 
 
         def f_bdt(val):
             return "{:,.2f}".format(val)
 
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        # হেডার অংশ
         output = f"# 💰 সোনার দামের লাইভ আপডেট (বাংলাদেশ)\n"
-        output += f"**শেষ আপডেট:** {current_time} | **ডলার রেট:** 1$ = {usd_to_bdt} BDT\n\n"
+        output += f"**শেষ আপডেট:** {current_time}\n\n"
+        output += f"### ✨ আজকের ১ গ্রাম ২৪ ক্যারেট সোনার দাম: **{f_bdt(p24k_bdt)} ৳**\n"
+        output += f"*(১$ = {usd_to_bdt} BDT হিসেবে)*\n\n"
+        output += f"> **হিসাব:** ১ ভরি = {v_gm} গ্রাম (Standard Bhori Measurement)\n\n"
 
-        # টেবিল ১: গ্রাম (Gram Price)
+        # টেবিল ১: গ্রাম
         output += "### ⚖️ প্রতি গ্রামের দাম (Gram Price)\n\n"
         output += "| ক্যারেট | দাম (BDT) | দাম (USD) |\n"
         output += "| :--- | :--- | :--- |\n"
         
-        # টেবিল ২: ভরি (Vhori Price) - আলাদা ভ্যারিয়েবলে রাখা হয়েছে
+        # টেবিল ২: ভরি
         v_table = "\n### 🔱 প্রতি ভরির দাম (Vhori Price)\n\n"
         v_table += "| ক্যারেট | দাম (BDT) | দাম (USD) |\n"
         v_table += "| :--- | :--- | :--- |\n"
@@ -61,7 +62,6 @@ def get_gold_price():
         for k, ratio in [("24K", 1.0), ("22K", 22/24), ("18K", 18/24), ("Old", (22/24)*0.9)]:
             u_gm = p24k_usd * ratio
             b_gm = u_gm * usd_to_bdt
-            
             output += f"| **{k} Gold** | {f_bdt(b_gm)} ৳ | ${round(u_gm, 2)} |\n"
             v_table += f"| **{k} Gold** | {f_bdt(b_gm * v_gm)} ৳ | ${round(u_gm * v_gm, 2)} |\n"
         
@@ -74,9 +74,4 @@ def write_to_file(content):
         f.write(content)
 
 if __name__ == "__main__":
-    # দামের টেবিল এবং নিউজের টেবিলকে আলাদাভাবে নিয়ে আসা
-    price_content = get_gold_price()
-    news_content = get_gold_news()
-    
-    # সব কন্টেন্ট একসাথে ফাইলে লেখা
-    write_to_file(price_content + news_content)
+    write_to_file(get_gold_price() + get_gold_news())
