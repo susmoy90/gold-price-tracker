@@ -1,9 +1,10 @@
-name: Daily Gold Price Update
+name: Gold Price 30m Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * *' # প্রতিদিন রাত ১২টায় অটো চলবে
-  workflow_dispatch: # চাইলে আপনি নিজেও বাটন চেপে রান করতে পারবেন
+    # প্রতি ৩০ মিনিট পরপর রান করার কমান্ড
+    - cron: '*/30 * * * *' 
+  workflow_dispatch: # ম্যানুয়ালি রান করার অপশন
 
 jobs:
   build:
@@ -30,5 +31,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add index.md
-          git commit -m "Daily Gold Price and News Update"
+          git commit -m "Auto Update: Gold Price and News (Every 30m)" || exit 0
           git push
