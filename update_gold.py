@@ -15,13 +15,11 @@ def get_gold_news():
     news_url = "https://news.google.com/rss/search?q=gold+price+market+bangladesh"
     feed = feedparser.parse(news_url)
     
-    # নিউজের টেবিল ডিজাইন
     news_section = "\n---\n### 📰 সোনার বাজারের সর্বশেষ খবর\n\n"
     news_section += "| ক্রমিক | সংবাদের শিরোনাম | নিউজ পেপার | লিংক |\n"
     news_section += "| :--- | :--- | :--- | :--- |\n"
     
     for i, entry in enumerate(feed.entries[:5], 1):
-        # শিরোনাম এবং সোর্স আলাদা করা
         title_parts = entry.title.split(' - ')
         paper_name = title_parts[-1] if len(title_parts) > 1 else "নিউজ সোর্স"
         main_title = " - ".join(title_parts[:-1]) if len(title_parts) > 1 else entry.title
@@ -44,18 +42,42 @@ def get_gold_price():
         p24k_bdt = p24k_usd * usd_to_bdt
         v_gm = 11.664
 
+        # ডলার রেট ক্যালকুলেশন
+        p22k_usd = p24k_usd * (22/24)
+        p18k_usd = p24k_usd * (18/24)
+
         def f_bdt(val):
             return "{:,.0f}".format(val)
 
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        # হেডার ডিজাইন (টেবিল ভাঙা রোধ করতে এখানে অতিরিক্ত \n ব্যবহার করা হয়েছে)
+        # হেডার এবং ছোট ডলার টেবিল ডিজাইন
         output = f"""
 <div align="center">
   <h1 style="color: #D4AF37;">💰 বাংলাদেশ গোল্ড হোলসেল মার্কেট আপডেট</h1>
   <p><b>সর্বশেষ আপডেট:</b> {current_time} | <b>ডলার রেট:</b> 1$ = {usd_to_bdt} BDT</p>
-  <p style="font-size: 1.2em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): {f_bdt(p24k_bdt)} ৳</b></p>
-  <hr style="border: 0.5px solid #D4AF37;">
+  <p style="font-size: 1.3em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): {f_bdt(p24k_bdt)} ৳</b></p>
+
+  <table style="border-collapse: collapse; text-align: center; font-size: 0.85em; margin: 10px 0; border: 1px solid #ddd;">
+    <tr style="background-color: #f8f9fa;">
+      <th style="padding: 5px 15px; border-bottom: 1px solid #ddd;">ক্যারেট</th>
+      <th style="padding: 5px 15px; border-bottom: 1px solid #ddd;">প্রতি গ্রাম ($)</th>
+    </tr>
+    <tr>
+      <td style="padding: 3px;">২৪ ক্যারেট</td>
+      <td style="padding: 3px;"><b>${p24k_usd:,.2f}</b></td>
+    </tr>
+    <tr>
+      <td style="padding: 3px;">২২ ক্যারেট</td>
+      <td style="padding: 3px;"><b>${p22k_usd:,.2f}</b></td>
+    </tr>
+    <tr>
+      <td style="padding: 3px;">১৮ ক্যারেট</td>
+      <td style="padding: 3px;"><b>${p18k_usd:,.2f}</b></td>
+    </tr>
+  </table>
+
+  <hr style="border: 0.5px solid #D4AF37; width: 80%;">
 </div>
 
 ### ⚖️ পাইকারি বাজারের দাম (Wholesale Price)
