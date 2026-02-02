@@ -1,24 +1,27 @@
 # 💰 সোনার দামের লাইভ আপডেট (বাংলাদেশ)
-**শেষ আপডেট:** 2026-02-02 05:05:46 | **ডলার রেট:** 1$ = 122.28 BDT
+**শেষ আপডেট:** 2026-02-02 05:21:41 | **ডলার রেট:** 1$ = 122.28 BDT
 
 ### ⚖️ প্রতি গ্রামের দাম (Gram Price)
+
 | ক্যারেট | দাম (BDT) | দাম (USD) |
 | :--- | :--- | :--- |
-| **24K Gold** | 18,446.68 ৳ | $150.86 |
-| **22K Gold** | 16,909.46 ৳ | $138.28 |
-| **18K Gold** | 13,835.01 ৳ | $113.14 |
-| **Old Gold** | 15,218.51 ৳ | $124.46 |
+| **24K Gold** | 18,319.49 ৳ | $149.82 |
+| **22K Gold** | 16,792.86 ৳ | $137.33 |
+| **18K Gold** | 13,739.62 ৳ | $112.36 |
+| **Old Gold** | 15,113.58 ৳ | $123.6 |
 
 ### 🔱 প্রতি ভরির দাম (Vhori Price)
+
 | ক্যারেট | দাম (BDT) | দাম (USD) |
 | :--- | :--- | :--- |
-| **24K Gold** | 215,162.12 ৳ | $1759.59 |
-| **22K Gold** | 197,231.94 ৳ | $1612.95 |
-| **18K Gold** | 161,371.59 ৳ | $1319.69 |
-| **Old Gold** | 177,508.75 ৳ | $1451.66 |
+| **24K Gold** | 213,678.51 ৳ | $1747.45 |
+| **22K Gold** | 195,871.97 ৳ | $1601.83 |
+| **18K Gold** | 160,258.88 ৳ | $1310.59 |
+| **Old Gold** | 176,284.77 ৳ | $1441.65 |
 
 ### 📰 আজকের সর্বশেষ খবর (News Table)
-| ক্রমিক | সংবাদের শিরোনাম (Latest Headlines) | উৎস ও লিংক |
+
+| ক্রমিক | সংবাদের শিরোনাম | উৎস ও লিংক |
 | :--- | :--- | :--- |
 | 1 | Gold price crosses Tk2,86,000 per bhori in Bangladesh, hits fresh record - The Business Standard | [এখানে ক্লিক করুন](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdnpJTmZiZ3NMQ0s0Z3JCMjdHa0szV3JiYllRTFdNaW1uTEZYLWx2OVhndW1KdTBfTVZvVDRpWHdoTUh4bEZUdVNOZmhHXzFnZVZKZzVFcDB6UmNXakNnaUx5ZVlTWmVVVTVvU2N6VklHV3RsN1R0dGM5ZGlZUm9WZERSX01TYzRFd2JpVVg1Zk1QWEMydmFRdzBXYjJGSW5PUG1GcHhQb3ZWd9IBrwFBVV95cUxQZjVGUjVHYkVmd3l3dWdmUkJDNXgwcXhiRmtmWmc0SDRRM1dLZzh5N2F0eFAtWkxlM2U0YTZIcGhzcGR1QmY4TVRXQ3ZlMEFxZTNrRGhpUl9FUlJSOUVvVUx2d1kzUjR5N2dkaDhHdGp2MEowNFUwOUs0dHNZdk5haUMxbnFkRURVN1FvRFd5OXFtclU0VVVSeXR6WmQ1WllnUzdsQXBvMXQweVd3djFV?oc=5) |
 | 2 | Gold price crosses Tk 286,000 per bhori in Bangladesh - New Age BD | [এখানে ক্লিক করুন](https://news.google.com/rss/articles/CBMimAFBVV95cUxNRjhnTTVMd0EteXM0cmxyZHoxQWZPUVhpZDA5c3hibGxHZTBHT211ZWtqbFJvbExqa2RFQ1hmbEprSkdKbHZEdEQ0UEtOc3VPUlhHWTc5SjN0dWx1WHRHNVFKaE8wMG52VUh6alhsUno5Q0kzXzBOUXpTODNrX2xodXNoQkZNaHF1Tm9zT2tlOUNPZmVNQWVhYw?oc=5) |
