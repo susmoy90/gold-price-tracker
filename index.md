@@ -1,18 +1,18 @@
 
 <div align="center">
   <h1 style="color: #D4AF37;">💰 বাংলাদেশ গোল্ড হোলসেল মার্কেট আপডেট</h1>
-  <p><b>সর্বশেষ আপডেট:</b> 2026-02-06 12:21:32 | <b>ডলার রেট:</b> 1$ = 122.26 BDT</p>
-  <p style="font-size: 1.4em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): 19,208 ৳</b></p>
+  <p><b>সর্বশেষ আপডেট:</b> 2026-03-03 07:47:23 | <b>ডলার রেট:</b> 1$ = 122.33 BDT</p>
+  <p style="font-size: 1.4em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): 20,955 ৳</b></p>
 
   <table style="border-collapse: collapse; text-align: center; font-size: 1em; margin: 20px auto; border: 1px solid #ddd; min-width: 320px;">
     <tr style="background-color: #f8f9fa;">
       <th style="padding: 10px; border: 1px solid #ddd;">ক্যারেট</th>
       <th style="padding: 10px; border: 1px solid #ddd;">প্রতি গ্রাম ($)</th>
     </tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">২৪ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$157.11</b></td></tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">২২ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$144.01</b></td></tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">২১ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$137.47</b></td></tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">১৮ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$117.83</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২৪ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$171.30</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২২ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$157.03</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২১ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$149.89</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">১৮ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$128.48</b></td></tr>
   </table>
   <hr style="border: 0.5px solid #D4AF37; width: 80%; margin: 20px auto;">
 </div>
@@ -21,45 +21,45 @@
 
 | ক্যারেট | বিশুদ্ধতা | প্রতি গ্রাম (BDT) | প্রতি ভরি (১১.৬৬৪ গ্রাম) |
 | :--- | :---: | :---: | :---: |
-| **২৪ ক্যারেট** | 100.0% | 19,208 ৳ | 224,039 ৳ |
-| **২২ ক্যারেট** | 91.7% | 17,607 ৳ | 205,369 ৳ |
-| **২১ ক্যারেট** | 87.5% | 16,807 ৳ | 196,034 ৳ |
-| **১৮ ক্যারেট** | 75.0% | 14,406 ৳ | 168,029 ৳ |
+| **২৪ ক্যারেট** | 100.0% | 20,955 ৳ | 244,424 ৳ |
+| **২২ ক্যারেট** | 91.7% | 19,209 ৳ | 224,056 ৳ |
+| **২১ ক্যারেট** | 87.5% | 18,336 ৳ | 213,871 ৳ |
+| **১৮ ক্যারেট** | 75.0% | 15,717 ৳ | 183,318 ৳ |
 
 ### 🛍️ লোকাল কাস্টমার খুচরা দাম (২০% প্রিমিয়ামসহ)
 
 | ক্যারেট | প্রতি গ্রাম (BDT) | প্রতি ভরি (BDT) |
 | :--- | :---: | :---: |
-| **২৪ ক্যারেট** | 23,049 ৳ | **268,846 ৳** |
-| **২২ ক্যারেট** | 21,128 ৳ | **246,443 ৳** |
-| **২১ ক্যারেট** | 20,168 ৳ | **235,241 ৳** |
-| **১৮ ক্যারেট** | 17,287 ৳ | **201,635 ৳** |
+| **২৪ ক্যারেট** | 25,147 ৳ | **293,309 ৳** |
+| **২২ ক্যারেট** | 23,051 ৳ | **268,867 ৳** |
+| **২১ ক্যারেট** | 22,003 ৳ | **256,646 ৳** |
+| **১৮ ক্যারেট** | 18,860 ৳ | **219,982 ৳** |
 
 ---
 ### 🌏 আন্তর্জাতিক গোল্ড মার্কেট নিউজ (International - Top 10)
 
 | নং | আন্তর্জাতিক সংবাদ শিরোনাম | নিউজ পেপার | লিংক |
 | :--- | :--- | :--- | :--- |
-| 1 | Baba Vanga 2026 Prediction: Gold, Silver & Copper Prices Amid Today’s Market Trends | **The Sunday Guardian** | [পড়ুন](https://news.google.com/rss/articles/CBMixAFBVV95cUxOMHVoLU41UlczRVpsbUx6QWJTQjZEVnliN0czUXhTa0tFZlBDdzg1UmpFbXY4T2c2bkVESWdNSDhvZGZJX3hDRDZ0ck5NN1FOdlJHT3VPakJickg1T2F2QU43ekRWVlhMT3dSdU9uSzZJSng5ZjU4Y2h2TjVreERKbFBBS3JjWjBrT3ZxOGpVR2ZLcm1FRmJqY2ZzOERFX3owbzFMWUo1N19MaFVqSmp5TGJRQmxuT2wxSDJMSEk2bUpjd0w1?oc=5) |
-| 2 | Gold, Silver Prices Today Live Updates: Yellow metal recovers in international market; spot gold up over 1% | **Times of India** | [পড়ুন](https://news.google.com/rss/articles/CBMipAJBVV95cUxQRnpIeURUU0d0NC1nWko0YWxqN3BFaWdGNzVBTmlISnhlNVNBYk13Q1dvLU9Pa2otWW1BMkoyblhnbV9LNjRPd0tPdXZ4YjZUdm1jMkFnUHZJQ3h2VUpsUXRpTWdyalZ0a2pXUXZfcTR4NUlZWm5KX1VvYUhBMWNUbnlJaHdIRE9wWXZNQ0Ewb1Rab0lMNUE4UkhvcElYNmtpN2NJUFhDaklrVmVSOHJoQVpXTjFodXBtWWd2dWNFWUs5Z1ZPMU9JZGFmVk83anJMTkhRcUxLOTZ1SVE3eUJ3OHotc3dJaXBtclhJd2h2aGFNNWlwNkNtX0g4dmpZYVdhM2FzS1JvNVhEQW5GMGEwbi04TnhYY0lieFZ1R1lZWFQ0MEdK0gGqAkFVX3lxTE5NQlk5bWo2bWdSLUxNM2gxVTQzb01IeG40ZXhYc1BtQ3lfZ1Q0ZVY0dTJyS3FhYUZmUEJfd0hrR2FpX3NOMGNrcUI3anRNZHlVaEtBWVMwck55SHIyeFR5T3RVRVZZNzFtT0xPQmE1S1JiOFdpbHlRVjBqMDlucGdiTDk4V3hWcFQxVXg0cmhEUmZLUm8yZUZxX3ZtYWhLakVrZXppVUFmQ2tabG9lWHJaS3owdVVxMEtRd1pjdk05azU5QV9kUFhNNHVRQ29lVXpURmQ4QnBvYXVaOEdtU1BkQUFyMktUejkwYy14TF9xSzQ3SXRQSldQdHVDNHZGbU96RUNlQ0d1TGxCbHlpZjNhZW1MRjNOWE9DVDk5V0RSMTZIY2tVdmtKR2c?oc=5) |
-| 3 | Why is gold price down again and will it go below $4,917 or make a comeback? Gold fall, analysts insights | **The Economic Times** | [পড়ুন](https://news.google.com/rss/articles/CBMi3gJBVV95cUxQZE9YNVJILS1OWmpETXFrWHZEbTJVNEV2cTZGQ0VVVDJtSTRuSUxpRWdGUU16cFUtb0R6eVNZVlVBWEpXNldOdndDN2l3c3lDNVctb3NieFBGa3BhN0hHUzNsazZRT1ZhT0k1VzJWTGcybTJjS0thYkNPUy1ic1Z6ZDRQV004NjdXSE5LZ2hjRjhrcHN3T0F2R01ycVcyTFRfR2VJdkRuMTNJZjlfeFBzQmNEZUFXRU5vdXJRS1dZUjlkd2QzM3E3a3Z1R2Y2cE1KYXNlelEzOVV4WnFRRm5vcXpjdWpoZ294UnhONlUxclg5QUJ2WDU2NlFSTnMzZTJFU3k4Rmh2MTJQNEZlS3BBcHhTWTBjb0RqQmpiT1pPQ3Q5R1oxYm9ZdDhPNkpDM0stRGVfWnJ5ajdSLVktbW5sRXFtakpLVHBzS1J0azdfdXRtMEt4SFRPaXJlQW9yZ9IB4wJBVV95cUxNSTJhS0pYaDZRVzdraUdPeDFvQ0dvdGgzUC1IYXRfQ2NZN0toandDbDI3dU5LZTBldk1KQ3MzQnNLdXZVTGJ5UkNma2lUZjZLVDVMaXBpbk44el92b2k4ZFlJdm5Qd1NQeHJXeDVuMVlhMkhwbjRpZmpOMVhNOGNRalNmT21pdkNkSEctLUREcjVHX2dKTlpXMlhDYTNZSHNHNVhYWTBLaFg4QVZSWVJ1OHVzd3VfLXJlUGgzVV8xc190NXZ4NTV1N3dRTG9JLVhfVWtnY1N1Z254QmVmcUs3LTlvcndDd2N1QTN3WWRHbWFUOC1EbklJZjdtQzVHQlpyRk9qLTBOeWZvc0M4djdVUzltcXNQckVCZnR2SDNRWmZwZHJsMkxxS18td21DS2VQZ0phbDk4VVlMQldFbGRGaUFzMFVicm4wVFI4Q29wZm9Cc3VWa3p6bFlWMERya1puOGF3?oc=5) |
-| 4 | Gold, Silver Rates Today LIVE: MCX gold near ₹1.50 lakh, silver crashes 5% to ₹2.32 lakh per kg — how to trade? | **Mint** | [পড়ুন](https://news.google.com/rss/articles/CBMigAJBVV95cUxPUVkxVW4xWW1iRlkyXy05T21IbHBaRjhwMTNtR000QzB1VlRBTkdtb0k0bWhldnFMRXlEZkt5WWlFelhOcHQ0X3gtMmh4MjB3UFhWRHdFcHhpLWl2YTZlZFRHcU4xck1LMjk5UGFfUG5JQ3BablA5eFdsOGYxdGJsenRSaGw5YUdjbHA2OHdHR3RWRzVLT2NsU0s1aHhKXzhKV05udXViVklaMW96VjBCN3hFdFhFZ0xTUTFNNDcyd0FfeEMxUGR3Zy10akZ3Yk90aENOWU1WVlVGcXRRc3p3VmZNQVBhMHlzYlJwazNkSjNEQnE2OGpidDMtYjF3cGNj0gGGAkFVX3lxTFBDQmhsVnM2bE9Cd3o3SGJnUWVqZGY5RG9vUzJENndKQXhCWW05WXpFdWRMQnRadTBwMzRPZVJJc1VlUjZPME5iN3NKRmlZLXR6YjNYaFlnZWRxMkh0RG5RVzRlcldDaTFDUGRCeGsxV2R6T0l5TFQyQlZzOUd3eTNyLU9iWlhLemh2QU16azMzYkhCdDdXZW5ndE9TU3I3eXVhYVYxQ0hId25nTTRYMDVHUjdQbnY3S3ppTm9GV1VubFRPbDZmQjdyc1lkb0E2WUEyNVFiUWZjcVI2WjdLZkVEbnFmV2kzUlpJRFpob0o5LWdEZkhkWFE1RE1mejJhczBiQWJFTWc?oc=5) |
-| 5 | Gold Price Today: January 30, 2026 | **Forbes** | [পড়ুন](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zX1NXTllPckpxeXBCVHlJc0I2dDBaRVRVdllsN19XQUhXYjBxWkx5TjNlVGF4NWx2RDFkSzA0V2FocXh4Z2lrUHMzZkV3a3ZnVXMwZjhZdU9LLWVQX3RyNVVn?oc=5) |
-| 6 | Gold prices tumble THB2,300, with 101 intraday adjustments | **Nation Thailand** | [পড়ুন](https://news.google.com/rss/articles/CBMibEFVX3lxTE1SUkg0Z01XdVVJN3pHd3ZjaUVFVURqNUdrdlRaTUZrbnRzaklJT2VQQ2pjNlloTHg5SmpzNFYyMnNDNGF5dzRzQTFWaExkNUJSM0VVSXlKelUwRGlxS0YzTl9NWDZwUkNLdTMxaA?oc=5) |
-| 7 | What Was the Highest Gold Price Ever? Updates on Gold's Record-Breaking Performance | **Investing News Network** | [পড়ুন](https://news.google.com/rss/articles/CBMitgFBVV95cUxORmdicXI3U2NzSHlBaEg2OVliWXpRdEZ4ekJlY1pBV1E4S0RXV2tVX3A4elBrMlRLcDFxV3NyZ1JCYkd6R0I5b0Y2c3d5eVMwYjc2UVdKc3ZVVHktWW1JS0tYOWlTa2E4bzd6MGZqU2NaWHpvdDM3SkFHcTY3aEVvN1F6T2o1VXc4Ulp3QmFXdFpiWU9XMzZ1SFd1WEplYmN2SW1rbDlZZlZzMFhNZHI1aUY0Wjk5UQ?oc=5) |
-| 8 | Research | **World Gold Council** | [পড়ুন](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QUWMxeWVLS3BtN0d5eDJ0YjZGal91ZFNhM3QyRnVNOFpWLXlNZE9VdzhkUEZRbjZkYUNQRlE1ZEdIRFBsRmdGcTNjUWl6cHJFQW1KbzFXd0o?oc=5) |
-| 9 | A new high? | Gold price predictions from J.P. Morgan Global Research | **J.P. Morgan** | [পড়ুন](https://news.google.com/rss/articles/CBMifkFVX3lxTE1kM2JWQzZKancwQUt5RWpRRkFqQy1ralRyRDNmY3dfeXl5MmZEZE5TUm1FYnpZbmU2UWpqaXdpS2FBcjJSY3JNbkRKSjNIOS1SUklZZl9yOTZUVm5fRjdTTXJIelg1Z2JBOGZldFJpSU1vVEdHMWVQUUQ5dnVtQQ?oc=5) |
-| 10 | Gold, silver rates today highlights: Silver futures decline 10%, check MCX prices| India News | **Hindustan Times** | [পড়ুন](https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc0M3UThuWmRPYzk4YWxJZU9ETjc1QXlJb0FjM2tQb014SnloUHlGNUxSV1QtWk9SQ01sY0k3OUdUNi1pR2NnV29zRVluUzhIN1VZNm9JdU5TUkZhc2lrSnpORXoxaGZENmFfcWdiQlFIMGVVRHQwTDVNNkU3T0ZsVVNCWmFmVjhCOG9CQ0IwY0lDUEp1Q1F1c2ZsREMwWXJOeDFqQmtCQzJNVnRYemp2TlN5alk4SEE0TERhNlNKY1pLRUlSRnhwLVlERWdoUG54Nnd5Rlo0MHpxOVZjX0hvM1RQNDBxYnQzb21vaU1WcGRKMEZkUnV3?oc=5) |
+| 1 | Gold extends gains as Middle East war boosts safe-haven demand | **CNBC** | [পড়ুন](https://news.google.com/rss/articles/CBMioAFBVV95cUxQOEFTRWl1LVo2N3A4ekRBdWt0MHEzZnR0SlQ4dDF0bUdkVWl3QkxtQ0Z1aWpJSjFkSVZTY21zOWVlb2QxNmFzQks2SGRtZHJjUTF6THdiX3prdDVGaUFmLUEybEl0aWVQbVRvd2RXemFZcnBPRnA2eWYzUFpKcVd4cUJLYTdRc1hsYjJ4NlB4UFBLellDb2VOdXllRlRMeGdS0gGmAUFVX3lxTE5KZHd2Y3FXX0d1UGR3NER3aXhBQWtfV2tuNE95bDNxendheklMcXJZU1VYR1ZDLUtKcnA4NzdWejRydFlHY0Y1N1NQenZUYlBySWFzTE4yWTkxOTYxNmxfOUVLcmVsT3hiSk1hQjQtWVAyTERad196ZG5BTVoyempyeEFNV0h0Z25HR1lQMUxuR1lucVJKQzBJdXliSi12aHIwSFNpYXc?oc=5) |
+| 2 | Gold and silver prices have further to fall before reaching the floor, but Iran conflict and tariff uncertainty are supportive – Heraeus | **KITCO** | [পড়ুন](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRFJaRWl4d1pjVEFSN1UzcWxsWG5rc2VfSjNfeFE1SHdZYW9qQ3MyNXR3RUs1Njkyam1wc2l4eFd5OVplNXQ4Zl8ySFQwRWVrR1NGcHV2N0hESUs5N0d4d0lrOVp3WTYzb25ZdWstUF9fZ2VHY0o4X2RwMFI0aTl3VXRMYlotUHhLZEFCNTBRcVI2WlBhZHhGR3J1azB5NmptTklRRU9VOUxOZUtiOG5maUlJTERubzZYek5F?oc=5) |
+| 3 | Gold gains on fears of prolonged Middle East conflict | **Reuters** | [পড়ুন](https://news.google.com/rss/articles/CBMirwFBVV95cUxNZlZHWHNZOWItbjZnS1ZkaFFUTHg4b08tTzJIR0RIVE9PYlU3bm4tUWJzYkhDaHpLaEFCVEtlSW5jV2Zzb1JHSVlyUE0ybFljYjFCV1FKTnlXRnRfWUFNTjRMaVd4X3BLMkQ2aXJBUkFMUWlSZWpMUGRjem5RbE50QVFhVm1SR1JoVU9NcUFmQTg0RjZ2QXMtT09Cclk5WGJMSWZOZ0ExTkN1bXIyRm1B?oc=5) |
+| 4 | Gold Pares Gains as Traders Weigh Iran War, Fed Rate Outlook | **Yahoo Finance** | [পড়ুন](https://news.google.com/rss/articles/CBMifkFVX3lxTE9KU0YyVlBIdG94QXFmY2NwQ1BFR1l5djhHbGNfczBFTDBVZExORDV4enhMMVNfUnBGemhGdm1BTjcyWm9zRHhKN1Y0V09ZZVh3c0NzaW1XWGZZZG5BUEhWYXdCNHNncGZXeW1CbTUzZzdCYmlqdHh4NjVON3NwQQ?oc=5) |
+| 5 | Gold price jumps on Middle East turmoil. What to know before investing | **CNBC** | [পড়ুন](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbmMzcWtMS0ZfWDItaVlheWZOc21xektreWRyYVhOZXl1NFc0dERfdXBiRHplRDdWOExDakF4Zkx0WVlnbFM5dnV1bjJ5WUhJRkUyLXh3ZnlrVFZaTFp6Rno5UjF4bjR4eGtNd29JXy13czRDeVUwSDlPa21nekMwMkdaWGMzeTF4ckNkeWdDU0hpcTdMdGxNM3Q4cTBYRGpuRldWMWphSlJ6QQ?oc=5) |
+| 6 | Gold, Silver Rate Today Live Updates (March 2): MCX gold jumps 3.5% as US-Israel-Iran tensions boost safe... | **The Economic Times** | [পড়ুন](https://news.google.com/rss/articles/CBMiqgJBVV95cUxNVXNpRU5KY0J5Mk5ESGtMSlZwVHhYWXpWSDFYSVpGdDV0ZGpObnY5RFRuQmMzYVQ0UDJ1YmNQQmJfTWh1a2N1aDcwWk9UMERTNkMyMmk2T19iVFJLRDMtUG83WDhkVktZU1NES1J0N0NidVdWTnRQT0g2Uk9jbnV5ZWJUNlRsYUo5VXh1bmFpZlhXcjRrdVF0Q2hELWZwNmZlbjFoVE01TnNpTGhCejItM09hRFdBdUhOc3MxMHlsTmt3WVJocGY0SmdmWGxzU0FyX2FmNzMxaHE2RWIydlB1RXlTYVh1cHRiQmlzajZRRnBVa1Vfdjl3WkloaUtKWF9lWDRwYWNNUUVFbkphUTliM0R0cTk0MlJlX0lVOW5ia0EtVVl3ZGZYSmdn0gGvAkFVX3lxTE8weXd1SmlCNFl6Vmw0YWpRRjl4MmJkeTVaYmNxamlRRGRMVEhuTF9zOHJTMlhFUTMwSHFFaHhFdU9pYVdsSVlLYmhyZGlBN3pvOGRmbmh4SkFOMlZ0YlRZNXFVRTZkcnN5RmV0RkExRkNKN0l1SDZKRFNpcWd5QW5KTnRmcEpnNDZvMHJRNFQ3SnVQcUV5Q2hjY3pPTHJJZGw4blp1QVVjVHJIY2xmWDNGU0wxUDItVUhISmNtaTNTREQyR042NUZxSUx3YktOMzlUak5Ga2xVb09NZzgzaWlObVhXYkc0ME9JSU12UHV2Vm52SmRUY1ZmNGgzUms4MG5BUWZPR2tZd3czRHQ5MDUxdS1xMnNoUkdnTHhhSVFoNmlaRWM5N2pUOUJ5eXRrTQ?oc=5) |
+| 7 | Gold And Silver Prices Surge Amid Global Tensions | **Evrim Ağacı** | [পড়ুন](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVk1sdVRneV8zV2hpaWlXSS1sZlUxSThHd1ZNSW1lQVcySDNkVTlXWVZfUWR2WmVNQk41UC1rbGRjS1lGOXFiZ190bUNEZzFOY09MS2R3ZlZvY2dlQTRJN3FiRnJzUHZQeUZ6aUVBLWNfOUk2SjNGdFB0U0tXMGdBWm1ZRV9FMUlOa2pB?oc=5) |
+| 8 | What does 1 gram of 24K gold cost in today's market? | **CBS News** | [পড়ুন](https://news.google.com/rss/articles/CBMigwFBVV95cUxPLU90TWFCdkJ6eTAtUVR4bWFZakNfRmV0dUxqd0U2d2drazN4ZWJZZ0dqVWc1R3NVU2lPNEV6VVo5NzhMX0VXUnBVTXdsZ2VnU2pCWkRIZ1BqWXo1cGYzcWFEWVRNNW1pQjRSYndxdS0xUUZQdTU2a01hT3ZoQ1k5YXhHOA?oc=5) |
+| 9 | Gold prices climb amid boost to safe haven demand after U.S.-Iran escalation | **Investing.com** | [পড়ুন](https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2k2SUdqS1FKWklxVXlVTUU3UHp3dmxNdFBtMmNqVjd4eERibC1PU3pJbERZS1VPXzdOVGY5eWtLaFNrZG56b01KdXBCOVoxclRRRHZaMkNuVEZyTGUwcmQwell1Z3pXZVZHU0dvLVB6cXAwSGtvYWRobmZyMGV1SFEyM3lQbWtId2JSdlVJa29kbG9mSGxzZnByZ3pKdXd6emZSSFFEN200NjUtVHN0LTVseExQdGM?oc=5) |
+| 10 | Gold Climbs Above $5,400 on Haven Demand as Middle East Tensions Flare Up | **WSJ** | [পড়ুন](https://news.google.com/rss/articles/CBMizgNBVV95cUxNS2c1RWt4cVZDdl9MU0hBR3R5TEVoZWZ1V2RwbFpqcW05bElncmFCYWlQQWtnanhUVmxSRjg3dkxXUGdnSFBQbE1KZmtQenFQRERxaUdCSUpwcUFoeEdOQ0FWa2Z5Y2ItR1JLS0ZULVRTY1FHRlpLUlVVRktYMTUyUkdZUDRSZ2h2T1BkN0NiMDZVQ3QzOUVfUW5ta2pnNVphMVBodkkxQ2F3R0ZNc0JfMk9JSGszb3lFV0t2bEc2OTlmbkdqY3NuQmstSC1nREhtUjFJVXpsaDkwQkRzNFY3a1MtWTVVdjF2NVJ6N0lLZE1Mb1QzVHZkVjRZaVI4OWNOcTFRSkFidlJqX0pZWC1vcXJ0V0h2NzhPdzUxT3R5ZmRRbGRzdmk4b1RpUjdfWUpzZjQ0RktDT2hvbjJCZU55dmozYVIxNnAtNnNLVjQ4SldMeXd1cG45aVRNRk56N2NJQ2ZsdG00dzFiX05ORVBqTmRDcXR1T0VfT05DRHE4UDh3M3BUUXlIaXV6OE5VYUlPZVYtUmg5MEl1SjlIZXhpc2x3QzJOY1JlMndfMzh5MVgwMHlkQ0NkYVBTSktEUHAxNExrRERVZzRCQVNOREE?oc=5) |
 
 ### 🇧🇩 বাংলাদেশের গোল্ড মার্কেট নিউজ (Local)
 
 | নং | দেশীয় সংবাদ শিরোনাম | নিউজ পেপার | লিংক |
 | :--- | :--- | :--- | :--- |
-| 1 | Gold price drops by Tk7,640 per bhori in Bangladesh | **Just News BD** | [পড়ুন](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMOV9pVmRzZ3d2ZEZMS29UQ0tXcm9HMlZKVUQyY1NVTlhxdG9xOUNqU29DSWRxb1ItczFsYkRYSy14TGNXT25oMTE1aXdCZlE3VWRHOUxCMzBNRnpFdnc?oc=5) |
-| 2 | Gold price drops twice in one day | **New Age BD** | [পড়ুন](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdEY0LVYtVFowXzVDOEwtT2JtV1lhaGg0WjZvT3JwWlBLU3pTeVFKT2VKWElCeW91dmNMUHpLemRJR2xVYjZMVEFuVHN5cFF2dWdaUXRmVTVYVHRodVp1OEdiYnBDWm5ZQXJjN2NRODhxczJTenRGNjYteTJHdHRjaGMwV1hlYk9P?oc=5) |
-| 3 | Gold price drops by Tk 7,640 per bhori in Bangladesh | **thereport.live** | [পড়ুন](https://news.google.com/rss/articles/CBMikwFBVV95cUxOei16c2tWSGF2VFM3b1NiSFZQZG9OSVpuZlY3ejFZYnM4TW1COXY0LUNRMnVObmJfNm9mRlFJRFNHMGNKaHNMUWFiTG5tUEl5TWtPZGFwdUVsZ3NaYmZXMHREV2VNVEhGcV9NWm8xQ2pfV1JiN0hxam9WUzB4NVFUQUZHRnA1STNGSndXVU8xYnRSbDQ?oc=5) |
-| 4 | Gold prices rise again, effective from today | **daily-sun.com** | [পড়ুন](https://news.google.com/rss/articles/CBMijgFBVV95cUxOanNQUFVZeVBaU3dYWXJvend5dXRZUXplY3o2SXUxVGdlLW5HTWdDMEY4cFlDS2x2SWRZWEgxS1NJaG1JdGFteGhfc3VNNV9zbHdXdGY1Sm5yUDM4VG9aclI1WVBNLVF1QUxZVjFLQTJHeWg3blNTVHZOQzNfVHMweDVISlZfOHRjTTRJQ3Rn?oc=5) |
-| 5 | Gold Price Shock: Tk16,330 surge hits Bangladesh overnight | **United News of Bangladesh** | [পড়ুন](https://news.google.com/rss/articles/CBMiogFBVV95cUxOYk5iZENkYnd2WHBMc0lrOFNxb3hXMERNbm9yZW9fU3pPNzRKekNaQTFYcXlUSi1WOHp2RlAtMzVHWGJiQXdJNDNVNHo3a0FCaFgzamxhMDl5ajk3TGNPVVFvMFgxSUNocFQ4d3Z0S0RnUklGUUs3S1FIcFBhM2hKb0JuVVZ3TGFzSWxncFFQTkdBM3pwZUdQN0RKYTg5V1c0dGc?oc=5) |
+| 1 | Gold hits Tk2,74,000 per bhori after big jump | **daily-sun.com** | [পড়ুন](https://news.google.com/rss/articles/CBMikAFBVV95cUxPd25RRWQzWkczR2J2SUF5WGd2NnF5NnBVSGZvc0Nfa1JwU3licWU1YjgzZFE1MTNXLW1WcWhCQ081a0EwOE43QllWQnhlOWVreHFLQ1U5Z2ROR01EMFlSTWV5WS13alhoMHQyMVYxLVdtTVNFcWZOSG40cGo5OVlGdk4xWFBZZG1NSndiOTRpX2U?oc=5) |
+| 2 | BAJUS raises both gold and silver prices | **Bonik Barta** | [পড়ুন](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wbHBLRXlfMmI5Z1pfZDlqQ1hSRUdvWFo5UjlyZUxacWZXdkJzV2hpUXRHQ2pTLU9vMmV2YVhTTjFoNnZpVUJXN1o2TS1sSV83cWc3NDg5YVFHRDBhc1Braw?oc=5) |
+| 3 | Gold price jumps by Tk 5,424 per bhori in Bangladesh | **Just News BD** | [পড়ুন](https://news.google.com/rss/articles/CBMiXkFVX3lxTE43UEo1S2lfTGlCWmtvdXVoeHFDVmdyZFNNWDZWLWRRRUpfYVRpYm9CWDVWUy03Wm9MVnV3dzJDSzhSQVVGUFd0bDVlaVRLNEVEWFZldXBQbkVWYTVBcnc?oc=5) |
+| 4 | Gold price jumps again overnight in Bangladesh | **Asia News Network** | [পড়ুন](https://news.google.com/rss/articles/CBMifEFVX3lxTE85VmM2eG1fenE5X0FzUXlUSG5kT2tOWGNMR2tOSlZRdTIyWkJTU1RHc3BJZHNZekx4YzRnSVBsQ24tNm1EMkdjcWtYZDZkalZFb2JhdGpzbzl0TXlHN01RQUItMmJLcTZKVTJxUE85ZzVyOFBkS19WRkVCZFM?oc=5) |
+| 5 | Gold crosses Tk260,000 per bhori as Bajus raises price again | **The Business Standard** | [পড়ুন](https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0k2djZfMUZSWjk2dkZnOU1abmRuZ1hHZ2YzZWlpOHlyYk1ZOExZUWhDb1FNNU1lYkVlaGJsbGNRU1ZmX0RxY0VBZXk3U2Q2MGZYZXhlN0E1ZnZ3bEEtdDI5ZVR6b2hBVUhXX0F4TVdvUW1yTW5zTlE2TjEwYUQwaXY3UVFKaGlKVkhHYjA1XzE2MkZDVGlNMjY2X2gtX1VYa2ZR0gGoAUFVX3lxTE9GekJMWkhfazBUdFRRU3BFRG9jbkdBWWRIOXhmWjdNNzluQWk0M1JtanRoaTFWRkpHYll4dlVQUXFlR1JKN3ItOFg0bjNheFJyUFRLb0FxeGJMWFpqTVNLTEVESmhRcXRYRHo5cXRDNWx6VFRZc0hIWmlqWDhjcW9BWVBTU0VOMExVTVdRSWdPMUxWOF9LODFJb1I0MTBSRldLZzZGeTQ2MQ?oc=5) |
 
 ---
 
