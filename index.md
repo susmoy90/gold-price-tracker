@@ -1,18 +1,18 @@
 
 <div align="center">
   <h1 style="color: #D4AF37;">💰 বাংলাদেশ গোল্ড হোলসেল মার্কেট আপডেট</h1>
-  <p><b>সর্বশেষ আপডেট:</b> 2026-05-07 01:09 PM | <b>ডলার রেট:</b> 1$ = 122.86 BDT</p>
-  <p style="font-size: 1.4em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): 18,735 ৳</b></p>
+  <p><b>সর্বশেষ আপডেট:</b> 2026-05-07 01:15 PM | <b>ডলার রেট:</b> 1$ = 122.86 BDT</p>
+  <p style="font-size: 1.4em; color: #27ae60;"><b>আজকের ১ গ্রাম ২৪ ক্যারেট (পাকা সোনা): 18,762 ৳</b></p>
 
   <table style="border-collapse: collapse; text-align: center; font-size: 1em; margin: 20px auto; border: 1px solid #ddd; min-width: 320px;">
     <tr style="background-color: #f8f9fa;">
       <th style="padding: 10px; border: 1px solid #ddd;">ক্যারেট</th>
       <th style="padding: 10px; border: 1px solid #ddd;">প্রতি গ্রাম ($)</th>
     </tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">২৪ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$152.49</b></td></tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">২২ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$139.78</b></td></tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">২১ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$133.43</b></td></tr>
-    <tr><td style="padding: 8px; border: 1px solid #ddd;">১৮ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$114.37</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২৪ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$152.71</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২২ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$139.98</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">২১ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$133.62</b></td></tr>
+    <tr><td style="padding: 8px; border: 1px solid #ddd;">১৮ ক্যারেট</td><td style="padding: 8px; border: 1px solid #ddd;"><b>$114.53</b></td></tr>
   </table>
   <hr style="border: 0.5px solid #D4AF37; width: 80%; margin: 20px auto;">
 </div>
@@ -21,19 +21,19 @@
 
 | ক্যারেট | বিশুদ্ধতা | প্রতি গ্রাম (BDT) | প্রতি ভরি (১১.৬৬৪ গ্রাম) |
 | :--- | :---: | :---: | :---: |
-| **২৪ ক্যারেট** | 100.0% | 18,735 ৳ | 218,524 ৳ |
-| **২২ ক্যারেট** | 91.7% | 17,174 ৳ | 200,314 ৳ |
-| **২১ ক্যারেট** | 87.5% | 16,393 ৳ | 191,209 ৳ |
-| **১৮ ক্যারেট** | 75.0% | 14,051 ৳ | 163,893 ৳ |
+| **২৪ ক্যারেট** | 100.0% | 18,762 ৳ | 218,835 ৳ |
+| **২২ ক্যারেট** | 91.7% | 17,198 ৳ | 200,599 ৳ |
+| **২১ ক্যারেট** | 87.5% | 16,416 ৳ | 191,481 ৳ |
+| **১৮ ক্যারেট** | 75.0% | 14,071 ৳ | 164,126 ৳ |
 
 ### 🛍️ লোকাল কাস্টমার খুচরা দাম (২০% প্রিমিয়ামসহ)
 
 | ক্যারেট | প্রতি গ্রাম (BDT) | প্রতি ভরি (BDT) |
 | :--- | :---: | :---: |
-| **২৪ ক্যারেট** | 22,482 ৳ | **262,229 ৳** |
-| **২২ ক্যারেট** | 20,608 ৳ | **240,377 ৳** |
-| **২১ ক্যারেট** | 19,672 ৳ | **229,451 ৳** |
-| **১৮ ক্যারেট** | 16,861 ৳ | **196,672 ৳** |
+| **২৪ ক্যারেট** | 22,514 ৳ | **262,602 ৳** |
+| **২২ ক্যারেট** | 20,638 ৳ | **240,718 ৳** |
+| **২১ ক্যারেট** | 19,700 ৳ | **229,777 ৳** |
+| **১৮ ক্যারেট** | 16,885 ৳ | **196,951 ৳** |
 
 ---
 ### 🌏 আন্তর্জাতিক গোল্ড মার্কেট নিউজ (International - Top 10)
@@ -56,10 +56,10 @@
 | নং | দেশীয় সংবাদ শিরোনাম | নিউজ পেপার | লিংক |
 | :--- | :--- | :--- | :--- |
 | 1 | Gold prices drop again as Bajus revises rates | **The Business Standard** | [পড়ুন](https://news.google.com/rss/articles/CBMiigFBVV95cUxNQi1aLUZCMEloMkpJenV6cU9RNEJCdEVxb0w2Sk9paGNZZjN2bFhybEZULU50N2sySlFBM0pra0pFMk1yQXE0c3Y4S05kNjJ6YW9wUndBNk5OT09QaVBJUmhZOTJQQ3JCSVpKY0dvQzlPLXR3MkNtVXlkR2N2b3pHRGw4VlJBMndsWFHSAY8BQVVfeXFMTjVJUllucTBoT3p0ZnpiV3kzanRqMTh2OEVERVZpYW5oRG9zZDJ2Znk4MjRLNzFQSU9Fdnh2akVuYWJGOXI5TW9UMTgxR1FTUzdkS1Z1blFNb3N0UWQ4WnFNanVnQ0szd0pfcEVubVhaM2NrX0d0X0lLcC11amdxSWY1YmNqclJuZUFfTDYydjg?oc=5) |
-| 2 | Gold prices fall in Bangladesh as Bajus adjusts rates | **MSN** | [পড়ুন](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNckt3T1lLc2d1NWpRRDZFeVVsMzFkclRpZkh2SGZaX0kwUUV0NzdQZWFSV2NaRXkzR1MzbkxRTXhYTVlKUF9fWHh0MmZsNTBwNm5lMldsdzh5a0tvc0pUTGNJUGV4bXZWODJWN2NqSDZjdjNEX3l4a1lFUkQ1ZDQ5RUdiU1pSdkxENW9TUEtSenVjMWFQbEE4cjBtNjU4SkF1UnE0OXMwZEdqRDg?oc=5) |
-| 3 | Gold, silver prices rise in domestic market | **Daily Bonik Barta** | [পড়ুন](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmOFpVc2NKS09pa0l4U3lrZWY4UkxnT0I3QXlicTdlaVk3TmJJdnQ4T0xvdU13OFdpVGlzT0lSNWVpOE5zTEM3QlUxaFJGd204TkxrTFFqLWh2ZzBrMDJiag?oc=5) |
-| 4 | BAJUS revises gold rates in line with global market move | **en.bd-pratidin.com** | [পড়ুন](https://news.google.com/rss/articles/CBMiYEFVX3lxTE50OHp1aVRvQVAtMGVTbzRmaFRYT0JrN3lpOW5USkxvOUVpSnpDUG9TVlF1UjhhUzdxT25KSTVraXZuMTZJUFFIOWlDbnRwZFhNN2JnaFY2b1dYZDg1Z2lpZQ?oc=5) |
-| 5 | Gold prices rise; 22-carat now Tk242,495 per bhori | **daily-sun.com** | [পড়ুন](https://news.google.com/rss/articles/CBMilgFBVV95cUxQY0tjeXl5SHVwOFRNZWEzeGZDTkwwMHVaZlB2MTc3NTVYc0NQN2hiQUEyQTNWQ1NGMWxYODl5dWhFUGFjdllFMklDNnNfc3NLWDl0ZDdNYlZ1TW94VGZyZHdmclJQalNLb3NMcDJpamE1TWQyTFA3SDlhSmZDNzJ6Sl9teGRYWmFqUl9yTFp0NTItbTF0VWc?oc=5) |
+| 2 | Gold, silver prices rise in domestic market | **Daily Bonik Barta** | [পড়ুন](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmOFpVc2NKS09pa0l4U3lrZWY4UkxnT0I3QXlicTdlaVk3TmJJdnQ4T0xvdU13OFdpVGlzT0lSNWVpOE5zTEM3QlUxaFJGd204TkxrTFFqLWh2ZzBrMDJiag?oc=5) |
+| 3 | BAJUS revises gold rates in line with global market move | **en.bd-pratidin.com** | [পড়ুন](https://news.google.com/rss/articles/CBMiYEFVX3lxTE50OHp1aVRvQVAtMGVTbzRmaFRYT0JrN3lpOW5USkxvOUVpSnpDUG9TVlF1UjhhUzdxT25KSTVraXZuMTZJUFFIOWlDbnRwZFhNN2JnaFY2b1dYZDg1Z2lpZQ?oc=5) |
+| 4 | Gold prices rise; 22-carat now Tk242,495 per bhori | **daily-sun.com** | [পড়ুন](https://news.google.com/rss/articles/CBMilgFBVV95cUxQY0tjeXl5SHVwOFRNZWEzeGZDTkwwMHVaZlB2MTc3NTVYc0NQN2hiQUEyQTNWQ1NGMWxYODl5dWhFUGFjdllFMklDNnNfc3NLWDl0ZDdNYlZ1TW94VGZyZHdmclJQalNLb3NMcDJpamE1TWQyTFA3SDlhSmZDNzJ6Sl9teGRYWmFqUl9yTFp0NTItbTF0VWc?oc=5) |
+| 5 | BAJUS announces new gold prices, all categories see decline | **Jagonews24.com** | [পড়ুন](https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TlJuZG1NX2h6Rzgzc0xuVW90WWZNVHJ2RURWS0lwNGwxVTB0Mk94M2tENGZkdUplWDQ4UG9Zajh0ZVdaUjE1ME9NZk85TDc0S1ZyU1ozM29JM0hoR3fSAVBBVV95cUxQaVZyaGdUVkJoZkFkejlHSXZFME1hVzJLVkZ0dE51OFdHNGJyOGlERFIyaVJ4VkZHWlh5dFJ5SEY5OURNbWZ3WVJoTU1FQ2x2RQ?oc=5) |
 
 ---
 
