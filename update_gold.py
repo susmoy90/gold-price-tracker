@@ -2,6 +2,7 @@ import requests
 import feedparser
 import os
 import datetime
+import pytz
 
 def get_bdt_rate():
     try:
@@ -67,7 +68,8 @@ def get_gold_price():
 
         p22k_usd, p21k_usd, p18k_usd = p24k_usd * (22/24), p24k_usd * (21/24), p24k_usd * (18/24)
         def f_bdt(val): return "{:,.0f}".format(val)
-        current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        
+        current_time = datetime.datetime.now(pytz.timezone('Asia/Dhaka')).strftime("%Y-%m-%d %I:%M %p")
 
         output = f"""
 <div align="center">
